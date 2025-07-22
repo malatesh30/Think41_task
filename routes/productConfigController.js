@@ -1,7 +1,7 @@
 const ProductTemplate = require("../models/ProductTemplate");
 const OptionCategory = require("../models/OptionCategory");
 const OptionChoice = require("../models/OptionChoice");
-const CompatibilityRule = require("../models/CompatibilityRule");
+const CompatibilityRule = require("../models/CompatibilityRule.js");
 
 // 1. Create Product Template
 exports.createProductTemplate = async (req, res) => {
